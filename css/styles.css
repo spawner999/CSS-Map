@@ -75,10 +75,10 @@ header{
   left: 650px;
   background-image: url("../img/chamois-small.jpg");
 }
-.ass{
+.donkey{
   top: 475px;
   left: 700px;
-  background-image: url("../img/ass-small.jpg");
+  background-image: url("../img/donkey-small.jpg");
 }
 .sealion{
   top: 500px;
@@ -116,7 +116,7 @@ header{
   display: none;
 }
 .modal h3{
-  color:  #f0ce69;
+  color: #f0ce69;
   margin: 10px 0;
 }
 .modal a {
@@ -154,7 +154,7 @@ div.whale:hover > div#whale-m {
 div.chamois:hover > div#chamois-m {
   display: block;
 }
-div.ass:hover > div#ass-m {
+div.donkey:hover > div#donkey-m {
   display: block;
 }
 div.sealion:hover > div#sealion-m {
@@ -182,4 +182,5 @@ footer {
 }
 .fa {
   color: black;
+  font-size: 1.5em;
 }
