@@ -138,16 +138,7 @@ div.sealion > div {
   top: -105px;
   left: -85px;
 }
-div.wolf:hover > div,
-div.solenodon:hover > div,
-div.rabbit:hover > div,
-div.sealion:hover > div,
-div.donkey:hover > div,
-div.chamois:hover > div,
-div.whale:hover > div,
-div.siamang:hover > div,
-div.ocelot:hover > div,
-div.deer:hover > div {
+div.icon:hover > div {
   display: block;
 }
 footer {
