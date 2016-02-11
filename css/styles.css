@@ -43,7 +43,7 @@ header{
   width: 1422px;
   height: 800px;
 }
-.species {
+.icon {
   width: 100px;
   height: 100px;
   position: absolute;
@@ -130,43 +130,24 @@ header{
 .modal img {
   border: 2px solid black;
 }
-div#whale-m {
+div.whale > div {
   top: -285px;
   left: -60px;
 }
-div#sealion-m {
+div.sealion > div {
   top: -105px;
   left: -85px;
 }
-div.ocelot:hover > div#ocelot-m {
-  display: block;
-}
-div.deer:hover > div#deer-m {
-  display: block;
-}
-
-div.siamang:hover > div#siamang-m {
-  display: block;
-}
-div.whale:hover > div#whale-m {
-  display: block;
-}
-div.chamois:hover > div#chamois-m {
-  display: block;
-}
-div.donkey:hover > div#donkey-m {
-  display: block;
-}
-div.sealion:hover > div#sealion-m {
-  display: block;
-}
-div.rabbit:hover > div#rabbit-m {
-  display: block;
-}
-div.wolf:hover > div#wolf-m {
-  display: block;
-}
-div.solenodon:hover > div#solenodon-m {
+div.wolf:hover > div,
+div.solenodon:hover > div,
+div.rabbit:hover > div,
+div.sealion:hover > div,
+div.donkey:hover > div,
+div.chamois:hover > div,
+div.whale:hover > div,
+div.siamang:hover > div,
+div.ocelot:hover > div,
+div.deer:hover > div {
   display: block;
 }
 footer {
